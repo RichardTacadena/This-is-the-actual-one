@@ -25,6 +25,7 @@ namespace WindowsFormsApplication3
         {
             InitializeComponent();
             timer1.Enabled = true;
+            MessageBox.Show("Hello");
         }
 
         private void timer1_Tick(object sender, EventArgs e)
